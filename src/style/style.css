@@ -1,0 +1,116 @@
+@font-face {
+  font-family: 'Alegreya Sans', sans-serif;
+  src: url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap');
+}
+
+body {
+  width: 1100px;
+  margin-left: 300px;
+}
+
+/* first block  */
+.up-block {
+  position: relative;
+  width: 1100px;
+  height: 766px;
+  background-color: #f8faf9;
+  /* opacity: -1; */
+}
+
+#image {
+  position: absolute;
+  width: 196px;
+  height: 578px;
+  right: 0;
+  bottom: -340px;
+  z-index: 1;
+}
+
+#berry1 {
+  width: 135px;
+  height: 112px;
+  position: absolute;
+  z-index: 2;
+  top: 173px;
+  left: 46px ;
+  right: 15px ;
+  bottom: 293px;
+}
+/* second block */
+.general-block {
+  width: 1100px;
+  height: 766px;
+  background-color: #ffffff;
+  position: relative;
+}
+#box {
+position: relative;
+}
+
+.head {
+  width: 222px;
+  height: 38px;
+  color: #0d0d0d;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: relative;
+  top: 109px;
+  right: 439px;
+  left: 440px;
+  bottom: 619px;
+  display: inline-block;
+}
+/* photo bar */
+.photo1 {
+  width: 223px;
+  height: 289px;
+  display: inline-block;
+  position: absolute;
+  top: 221px;
+  right: 800px;
+  bottom: 256px;
+  left: 80px;
+  margin-right: 16px;
+}
+
+.photo2 {
+  width: 223px;
+  height: 289px;
+  display: inline-block;
+  position: absolute;
+  top: 278px;
+  right: 560px;
+  bottom: 199px;
+  left: 320px;
+}
+
+.photo3 {
+  width: 223px;
+  height: 289px;
+  display: inline-block;
+  position: absolute;
+  top: 221px;
+  right: 317px;
+  bottom: 262px;
+  left: 555px;
+}
+
+.photo4 {
+  width: 223px;
+  height: 289px;
+  display: inline-block;
+  position: absolute;
+  top: 265px;
+  right: 75px;
+  bottom: 212px;
+  left: 790px;
+}
+/* down-block */
+
+#down-block {
+  position: relative;
+  width: 1100px;
+  height: 766px;
+}
