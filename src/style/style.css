@@ -43,8 +43,9 @@ body {
   background-color: #ffffff;
   position: relative;
 }
-#box {
+#main-box {
 position: relative;
+float: left;
 }
 
 .head {
@@ -55,7 +56,7 @@ position: relative;
   font-size: 48px;
   font-weight: 700;
   text-transform: uppercase;
-  position: relative;
+  position: absolute;
   top: 109px;
   right: 439px;
   left: 440px;
@@ -63,49 +64,155 @@ position: relative;
   display: inline-block;
 }
 /* photo bar */
-.photo1 {
-  width: 223px;
-  height: 289px;
+
+
+#photo1 {
+  /* width: 223px;
+  height: 289px; */
   display: inline-block;
-  position: absolute;
+  position: absolute; 
   top: 221px;
   right: 800px;
   bottom: 256px;
   left: 80px;
-  margin-right: 16px;
+  
 }
 
-.photo2 {
-  width: 223px;
-  height: 289px;
+#photo2 {
+  /* width: 223px;
+  height: 289px; */
   display: inline-block;
   position: absolute;
-  top: 278px;
+  top: 275px;
   right: 560px;
   bottom: 199px;
-  left: 320px;
+  left: 318px;
 }
 
-.photo3 {
-  width: 223px;
-  height: 289px;
+#photo3 {
+  /* width: 223px;
+  height: 289px; */
   display: inline-block;
   position: absolute;
   top: 221px;
   right: 317px;
   bottom: 262px;
-  left: 555px;
+  left: 555px; 
 }
 
-.photo4 {
-  width: 223px;
-  height: 289px;
+#photo4 {
+  /* width: 223px;
+  height: 289px; */
   display: inline-block;
   position: absolute;
-  top: 265px;
+  top: 275px;
   right: 75px;
   bottom: 212px;
-  left: 790px;
+  left: 794px;
+}
+
+.mini-box {
+  position: relative;
+
+}
+
+#name1 {
+  position: absolute;
+  width: max-content;
+  height: max-content;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  text-align: center;
+  color: #0d0d0d;
+  top: 25px;
+  left: 23px;
+  right: 42px;
+  display: inline-block;
+}
+
+#name2 {
+  position: absolute;
+  width: max-content;
+  height: max-content;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  text-align: center;
+  color: #0d0d0d;
+  top: 25px;
+  left: 44px;
+  right: 58px;
+  display: inline-block;
+}
+
+#name3 {
+  position: absolute;
+  width: max-content;
+  height: max-content;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  text-align: center;
+  color: #0d0d0d;
+  top: 25px;
+  left: 20px;
+  right: 43px;
+  display: inline-block;
+}
+
+#name4 {
+  position: absolute;
+  width: max-content;
+  height: max-content;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  text-align: center;
+  color: #0d0d0d;
+  top: 25px;
+  left: 46px;
+  right: 49px;
+  display: inline-block;
+}
+
+#mini-menu {
+  position: relative;
+  width: max-content;
+  height: max-content;
+}
+
+.text-menu-head {
+  width: 70px;
+  height: 16px;
+  color: #281e1e;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  position: absolute;
+  top: 56px;
+  left: 71px;
+  padding-bottom: 10px;
+}
+
+.text-menu {
+  position: absolute;
+  display: inline-block;
+  width: 223px;
+  height: 38px;
+  color: #666666;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  top: 78px;
+  left: 1px;
+  text-align: center;
+
+}
+/* Style for "Polygon 1" */
+svg{
+background-color: #0f5a47;
 }
 /* down-block */
 
@@ -113,4 +220,13 @@ position: relative;
   position: relative;
   width: 1100px;
   height: 766px;
+}
+
+#berry2 {
+  width: 105px;
+  height: 114px;
+  position: absolute;
+  z-index: 2;
+  top: -70px;
+  left: 33px ;
 }
