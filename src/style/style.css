@@ -3,18 +3,19 @@
   src: url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap');
 }
 
-body {
-  width: 1100px;
-  margin-left: 300px;
+.container {
+  margin-right: auto;
+  margin-left:  auto;
+  max-width: 1080px;
+  padding-right: 10px;
+  padding-left:  10px;
 }
 
 /* first block  */
 .up-block {
   position: relative;
-  width: 1100px;
   height: 766px;
   background-color: #f8faf9;
-  /* opacity: -1; */
 }
 
 #image {
@@ -36,79 +37,40 @@ body {
   right: 15px ;
   bottom: 293px;
 }
+
 /* second block */
 .general-block {
-  width: 1100px;
   height: 766px;
   background-color: #ffffff;
   position: relative;
 }
 #main-box {
 position: relative;
-float: left;
+display: inline-block;
+margin-left: 64px;
+margin-top: 220px;
 }
 
 .head {
-  width: 222px;
-  height: 38px;
   color: #0d0d0d;
   font-family: 'Alegreya Sans', sans-serif;
-  font-size: 48px;
-  font-weight: 700;
+  font-size: 30px;
   text-transform: uppercase;
   position: absolute;
   top: 109px;
-  right: 439px;
   left: 440px;
-  bottom: 619px;
   display: inline-block;
 }
+
 /* photo bar */
 
-
-#photo1 {
-  /* width: 223px;
-  height: 289px; */
-  display: inline-block;
-  position: absolute; 
-  top: 221px;
-  right: 800px;
-  bottom: 256px;
-  left: 80px;
-  
+.photo-margin {
+  padding-right: 16px;
+  float: left;
 }
 
-#photo2 {
-  /* width: 223px;
-  height: 289px; */
-  display: inline-block;
-  position: absolute;
-  top: 275px;
-  right: 560px;
-  bottom: 199px;
-  left: 318px;
-}
-
-#photo3 {
-  /* width: 223px;
-  height: 289px; */
-  display: inline-block;
-  position: absolute;
-  top: 221px;
-  right: 317px;
-  bottom: 262px;
-  left: 555px; 
-}
-
-#photo4 {
-  /* width: 223px;
-  height: 289px; */
-  display: inline-block;
-  position: absolute;
-  top: 275px;
-  right: 75px;
-  bottom: 212px;
-  left: 794px;
+.photo {
+  margin-top: 60px;
 }
 
 .mini-box {
@@ -117,98 +79,60 @@ float: left;
 }
 
 #name1 {
-  position: absolute;
-  width: max-content;
-  height: max-content;
   font-family: 'Alegreya Sans', sans-serif;
   font-size: 19px;
   font-weight: 500;
   text-align: center;
   color: #0d0d0d;
-  top: 25px;
-  left: 23px;
-  right: 42px;
-  display: inline-block;
 }
 
 #name2 {
-  position: absolute;
-  width: max-content;
-  height: max-content;
   font-family: 'Alegreya Sans', sans-serif;
   font-size: 19px;
   font-weight: 500;
   text-align: center;
   color: #0d0d0d;
-  top: 25px;
-  left: 44px;
-  right: 58px;
-  display: inline-block;
 }
 
 #name3 {
-  position: absolute;
-  width: max-content;
-  height: max-content;
   font-family: 'Alegreya Sans', sans-serif;
   font-size: 19px;
   font-weight: 500;
   text-align: center;
   color: #0d0d0d;
-  top: 25px;
-  left: 20px;
-  right: 43px;
-  display: inline-block;
 }
 
 #name4 {
-  position: absolute;
-  width: max-content;
-  height: max-content;
   font-family: 'Alegreya Sans', sans-serif;
   font-size: 19px;
   font-weight: 500;
   text-align: center;
   color: #0d0d0d;
-  top: 25px;
-  left: 46px;
-  right: 49px;
-  display: inline-block;
 }
 
 #mini-menu {
-  position: relative;
-  width: max-content;
-  height: max-content;
+  
 }
 
 .text-menu-head {
-  width: 70px;
-  height: 16px;
   color: #281e1e;
   font-family: 'Alegreya Sans', sans-serif;
-  font-size: 18px;
+  font-size: 22px;
   font-weight: 400;
   text-align: center;
-  position: absolute;
-  top: 56px;
-  left: 71px;
-  padding-bottom: 10px;
+  display: block;
+  margin-top: 17px;
 }
 
 .text-menu {
-  position: absolute;
-  display: inline-block;
-  width: 223px;
-  height: 38px;
+  display: block;
+  max-width: 223px;
+  min-width: auto;
   color: #666666;
   font-family: 'Alegreya Sans', sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 300;
-  top: 78px;
-  left: 1px;
   text-align: center;
-
 }
 /* Style for "Polygon 1" */
 svg{
@@ -218,7 +142,6 @@ background-color: #0f5a47;
 
 #down-block {
   position: relative;
-  width: 1100px;
   height: 766px;
 }
 
