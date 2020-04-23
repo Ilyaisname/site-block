@@ -1,0 +1,158 @@
+#block-three {
+  position: relative;
+  height: 654px;
+  background-color: #f8faf9;
+}
+/* decor-block */
+#image {
+  position: absolute;
+  width: 196px;
+  height: 578px;
+  right: 0;
+  bottom: -340px;
+  z-index: 1;
+}
+
+#berry1 {
+  width: 135px;
+  height: 112px;
+  position: absolute;
+  z-index: 2;
+  top: 173px;
+  left: 46px ;
+  right: 15px ;
+  bottom: 293px;
+}
+
+#ellipse {
+  position: absolute;
+  top: 187px;
+  left: 145px;
+}
+
+#bars-three-block {
+  position: absolute;
+  top: 112px;
+  left: 139px;
+}
+
+#list-three-block {
+  position: absolute;
+  top: 206px;
+  left: 78px;
+}
+
+#arrow-left {
+  margin: 317px 0 0 46px; 
+  position: absolute;
+  width: 13px;
+  height: 28px;
+  z-index: 3;
+  
+}
+
+#arrow-left button{
+  border: none;
+  background-color: snow;
+}
+
+#arrow-right { 
+  margin: 317px 0 0 1011px;
+  position: absolute;
+  width: 13px;
+  height: 28px;
+  z-index: 3;
+  
+}
+
+#arrow-right button {
+  border: none;
+  background-color: snow;
+}
+
+/* main */
+#wrap {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  padding-top: 130px; 
+  padding-left: 619px;
+}
+
+#header-three-block {
+  font-family: "Alegreya Sans",sans-serif;
+  font-size: 33px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+#wrap h6 {
+  margin: 41px 0 0 0 ;
+  font-family: "Alegreya Sans";
+  font-size: 24px;
+  font-weight: 500;
+  color: #323232;
+  font-weight: bold;
+}
+
+#wrap p {
+  margin: 33px 0 0 0;
+  font-family: "Alegreya Sans",sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #323232;
+  text-align: left;
+}
+
+#wrap-side {
+  display: flex;
+  max-width: 156px;
+}
+
+.str {
+  color: #333333;
+  font-family: "Alegreya Sans",sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 45px 25px 0 0;
+}
+
+.num {
+  color: #333333;
+  font-family: "Alegreya Sans",sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.rub {
+  font-family: "Alegreya Sans";
+  font-size: 55px;
+  font-weight: 300;
+  line-height: 60px;
+  text-transform: uppercase;
+  color: #0d0d0d;  
+  margin-top: 35px;
+}
+
+#but-three-block {
+  background-color: #0f5a47;
+  width: 156px;
+  height: 58px;
+  border: 1px solid;
+  border-radius: 42px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: "Alegreya Sans", sans-serif;
+  position: relative;
+  z-index: 1;
+  margin-top: 35px;
+}
+
+#wrap-side i {
+  font-size: 50px;
+  font-style: initial;
+  font-weight: 100;
+}

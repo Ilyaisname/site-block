@@ -1,0 +1,85 @@
+#block_two {
+  position: relative;
+  height: 648px;
+  background-color: #ffffff;
+}
+/* декор блока */
+.decor-two-list2 {
+  position: absolute;
+  top: 189px;
+  left: 0;
+}
+
+.decor-two-list3 {
+  position: absolute;
+  top: 445px;
+  z-index: 2;
+}
+/* ----- */
+/* тема блока два */
+#theme-block-two {
+display: flex;
+align-items: center;
+flex-direction: column ;
+padding-top: 5.2em;
+}
+
+#header-theme {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 36px;
+  text-transform: uppercase;
+  margin: 0;
+  color: #0d0d0d;
+}
+
+#paragraf-theme {
+  text-align: center;
+  color: #323232;
+  font-family: "Alegreya Sans",-webkit-pictograph;
+  font-size: 20px;
+  margin-block-end: 0;
+}
+/* ---- */
+#where-chocco {
+  display: flex;
+  justify-content: center;
+  margin-top: 57px;
+}
+
+#where-chocco figcaption {
+  color: #000000;
+  font-family: "Alegreya Sans";
+  font-size: 27px;
+  font-weight: bold;
+  text-align: center;
+  margin: 35px 0 25px 0;
+}
+#where-chocco p {
+  text-align: center;
+    font-family: "Alegreya Sans", sans-serif;
+    font-size: 17px;
+    color: #323232;
+}
+.pich div {
+  width: 125px;
+  height: 125px;
+  text-align: center;
+  display: inline-block;
+  background-color: #f2f5f4;
+  border-radius: 59px;
+  margin: 0 0 0 66px;
+}
+
+.pich {
+  width: 257px;
+  margin: 0;
+}
+.pich img {
+  margin-top: 25px;
+}
+
+.points {
+  max-width: 67px;
+  max-height: 21px;
+  margin: 109px 0 0 0;
+}
