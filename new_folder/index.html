@@ -4,11 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Comand</title>
+  <link rel="stylesheet" href="src/style/normalize.css">
   <link rel="stylesheet" href="src/style/style2.css">
   <link rel="stylesheet" href="src/style/block_one.css">
   <link rel="stylesheet" href="src/style/block_two.css">
   <link rel="stylesheet" href="src/style/block_three.css">
   <link rel="stylesheet" href="src/style/four_block.css">
+  <link rel="stylesheet" href="src/style/block_five.css">
 </head>
 <body>
   <div class="conteiner">
@@ -177,51 +179,55 @@
 
   <!-- block-four -->
   <div id="four-block">
-  <article>
+  <article class="command">
 
-    <div class="head"> <span>команда</span> </div>
-      <div id="main-box">
+    <div class="command__header"> <span>команда</span> </div>
+      <div class="command__photo-box">
 
         <figure class="photo">
-          <div > <img src="src/images/command_block_images/photo-1542211295-d5bf730e56cd.png" alt="photo"></div>
-          <div class="mini-box">
-            <div class="name"><figcaption><b>Борис Федорович</b> <svg xmlns="http://www.w3.org/2000/svg" width="9" height="6" viewBox="0 0 9 6"><g><g opacity="0"><path fill="#0f5a47" d="M4.506 6.14L.006.136h9.001z"/></g></g></svg></figcaption> </div>
-            <div></div>
+          <div class="photo__image"> <img src="src/images/command_block_images/photo-1542211295-d5bf730e56cd.png" alt="photo"></div>
+          <div class="photo__lover-menu">
+            <div class="photo__name"><figcaption><b>Борис Федорович</b> <svg xmlns="http://www.w3.org/2000/svg" width="9" height="6" viewBox="0 0 9 6"><g><g opacity="0"><path fill="#0f5a47" d="M4.506 6.14L.006.136h9.001z"/></g></g></svg></figcaption> </div>
+            <div class="menu-content"></div>
           </div>
         </figure>
       
         <figure class="photo">
-          <div class="photo_margin"> <img src="src/images/command_block_images/photo-1548534984-ddf53b264a58.png" alt=""></div>
-          <div class="mini-box">
-            <div class="name"><figcaption><b>Алла Иванова</b> <svg xmlns="http://www.w3.org/2000/svg" width="9" height="6" viewBox="0 0 9 6"><g><g opacity="0"><path fill="#0f5a47" d="M4.506 6.14L.006.136h9.001z"/></g></g></svg> </figcaption></div>
-            <div></div>
+          <div class="photo__image margin-top"> <img src="src/images/command_block_images/photo-1548534984-ddf53b264a58.png" alt=""></div>
+          <div class="photo__lover-menu">
+            <div class="photo__name"><figcaption><b>Алла Иванова</b> <svg xmlns="http://www.w3.org/2000/svg" width="9" height="6" viewBox="0 0 9 6"><g><g opacity="0"><path fill="#0f5a47" d="M4.506 6.14L.006.136h9.001z"/></g></g></svg> </figcaption></div>
+            <div class="menu-content"></div>
           </div>
         </figure>
       
         <figure class="photo">
-          <div > <img src="src/images/command_block_images/photo-1551153771-1a67a570d583.png" alt=""></div>
-          <div class="mini-box">
-            <div class="name"><figcaption><b>Кирилл Матросов</b> <svg xmlns="http://www.w3.org/2000/svg" width="9" height="6" viewBox="0 0 9 6"><g><g opacity="0"><path fill="#0f5a47" d="M4.506 6.14L.006.136h9.001z"/></g></g></svg></figcaption></div>
-            <div id="mini-menu">
-              <span class="text-menu-head">Оператор</span>
-              <span class="text-menu">С радостью поможет подобрать батончики и оформить заказ</span>
+          <div class="photo__image"> <img src="src/images/command_block_images/photo-1551153771-1a67a570d583.png" alt=""></div>
+          <div class="photo__lover-menu">
+            <div class="photo__name"><figcaption><b>Кирилл Матросов</b> <svg xmlns="http://www.w3.org/2000/svg" width="9" height="6" viewBox="0 0 9 6"><g><g opacity="0"><path fill="#0f5a47" d="M4.506 6.14L.006.136h9.001z"/></g></g></svg></figcaption></div>
+            <div class="menu-content">
+              <span class="menu-conten__header">Оператор</span>
+              <span class="menu-conten__text">С радостью поможет подобрать батончики и оформить заказ</span>
             </div>
           </div>
         </figure>
       
       <figure class="photo"> 
-        <div class="photo_margin"> <img src="src/images/command_block_images/photo-1549351512-c5e12b11e283.png" alt=""></div>
-        <div class="mini-box">
-          <div class="name"><figcaption><b>Мила Рыжкова</b> <svg xmlns="http://www.w3.org/2000/svg" width="9" height="6" viewBox="0 0 9 6"><g><g opacity="0"><path fill="#0f5a47" d="M4.506 6.14L.006.136h9.001z"/></g></g></svg></figcaption></div>
-          <div></div>
+        <div class="photo__image margin-top"> <img src="src/images/command_block_images/photo-1549351512-c5e12b11e283.png" alt=""></div>
+        <div class="photo__lover-menu">
+          <div class="photo__name"><figcaption><b>Мила Рыжкова</b> <svg xmlns="http://www.w3.org/2000/svg" width="9" height="6" viewBox="0 0 9 6"><g><g opacity="0"><path fill="#0f5a47" d="M4.506 6.14L.006.136h9.001z"/></g></g></svg></figcaption></div>
+          <div class="menu-content"></div>
         </div>
       </figure>
     </div>  
   </div>
 </article>
 
-  <div id="down-block"> <img src="src/images/command_block_images/pic.png" alt="pic">
-    <div id="berry2"> <img src="src/images/command_block_images/Berry.png" alt=""></div>
+<!-- five_block -->
+  <div id="block-five"> 
+    <div class="decorFiveBlockWrap">
+      <img src="src/images/command_block_images/pic.png" alt="pic">
+      <div class="berry"> <img src="src/images/command_block_images/Berry.png" alt=""></div>
+    </div>
   </div>
 </div>
 

@@ -1,18 +1,18 @@
 
 /* second block */
-#four-block {
+.command {
   /* width: 1100px; */
   height: 766px;
   background-color: #ffffff;
   position: relative;
 }
-#main-box {
+.command__photo-box {
 display: flex;
 margin-top: 85px;
 justify-content: center;
 }
 
-.head {
+.command__header {
   color: #0d0d0d;
   font-family: 'Alegreya Sans', sans-serif;
   font-size: 48px;
@@ -27,16 +27,17 @@ justify-content: center;
   width: 240px;
   margin: 0;
 }
-.photo_margin {
+.margin-top {
   margin-top: 60px;
-}
-.mini-box {
+} 
+
+.photo__lover-menu {
   display: flex;
   flex-direction: column;
   text-align: center;
 }
 
-.name {
+.photo__name {
   font-family: 'Alegreya Sans', sans-serif;
   font-size: 19px;
   font-weight: 500;
@@ -45,12 +46,12 @@ justify-content: center;
   text-align: center;
 }
 
-#mini-menu {
+.menu-content {
   display: flex;
   flex-direction: column;
 }
 
-.text-menu-head {
+.menu-conten__header {
   color: #281e1e;
   font-family: 'Alegreya Sans', sans-serif;
   font-size: 18px;
@@ -60,7 +61,7 @@ justify-content: center;
  
 }
 
-.text-menu {
+.menu-conten__text {
   display: inline-block;
   color: #666666;
   font-family: 'Alegreya Sans', sans-serif;
@@ -68,8 +69,6 @@ justify-content: center;
   font-weight: 300;
   top: 78px;
   left: 1px;
-  
-
 }
 
 /* Style for "Polygon 1" */
@@ -80,17 +79,4 @@ background-color: #0f5a47;
 
 /* down-block */
 
-#down-block {
-  position: relative;
-  /* width: 1100px; */
-  height: 766px;
-}
 
-#berry2 {
-  width: 105px;
-  height: 114px;
-  position: absolute;
-  z-index: 2;
-  top: -70px;
-  left: 33px ;
-}

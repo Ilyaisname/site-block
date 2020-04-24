@@ -1,0 +1,13 @@
+.decorFiveBlockWrap {
+  position: relative;
+  height: 766px;
+}
+
+.berry {
+  width: 105px;
+  height: 114px;
+  position: absolute;
+  z-index: 2;
+  top: -70px;
+  left: 33px ;
+}
