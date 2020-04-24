@@ -1,0 +1,47 @@
+.formWrap{
+  position: relative;
+  height: 667px;
+  background-image: url(C:/Users/Home/Documents/new/site-firstBlock/new_folder/src/images/block_form/fon.png);
+}
+
+.form {
+
+}
+
+.form__header{
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 44px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color:#0f5a47;
+  padding: 108px 0 0 300px;
+}
+
+.form__conteiner {
+  display: flex;
+  justify-content: center;
+}
+
+.form__left {
+  display: flex;
+  flex-direction: column;
+}
+
+.form__name-phone-wrap {
+  display: flex;
+}
+
+.form__left-group {
+  display: flex;
+  width: 460px;
+}
+
+.item {
+  width: 100px;
+}
+
+.form__right{
+  display: flex;
+  flex-direction: column;
+  width: 460px;
+}

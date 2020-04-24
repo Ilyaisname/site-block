@@ -5,18 +5,18 @@
 }
 
 /* декор блока */
-.decorTwoListWrap__patern {
+.decorWrap__patern {
   position: absolute;
   top: 189px;
   left: 0;
 }
 
-.decorTwoListWrap__berry {
+.decorWrap__berry {
   position: absolute;
   top: 445px;
   z-index: 2;
 }
-/* ----- */
+
 /* тема блока два */
 .aboutUs {
 display: flex;
@@ -41,7 +41,7 @@ padding-top: 5.2em;
   margin-block-end: 0;
 }
 /* ---- */
-.sectionWhyChocco {
+.WhyChocco {
   display: flex;
   justify-content: center;
   margin-top: 57px;
@@ -61,7 +61,7 @@ padding-top: 5.2em;
     font-size: 17px;
     color: #323232;
 }
-.sectionWhyChocco__picture div {
+.pictures {
   width: 125px;
   height: 125px;
   text-align: center;
@@ -71,15 +71,15 @@ padding-top: 5.2em;
   margin: 0 0 0 66px;
 }
 
-.sectionWhyChocco__picture {
+.WhyChocco__picture {
   width: 257px;
   margin: 0;
 }
-.sectionWhyChocco__picture img {
-  margin-top: 25px;
+.WhyChocco__picture img {
+  padding-top: 25px;
 }
 
-.sectionWhyChocco__points {
+.WhyChocco__points {
   max-width: 67px;
   max-height: 21px;
   margin: 109px 0 0 0;
