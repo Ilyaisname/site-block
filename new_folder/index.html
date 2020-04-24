@@ -235,7 +235,7 @@
   
   <!-- Form_block -->
   
-  <div id="form" class="formWrap">
+  <section id="form" class="formWrap">
       <div class="decorWrap">
         <div class="decorWrap__image">
         </div>
@@ -250,50 +250,72 @@
               <div class="form__left">
                 <div class="form__name-phone-wrap">
                   <div class="form__name">
-                    <h6 class="type__header">Имя</h6>
-                    <input type="text">
+                    <label class="input-header" for="name">Имя</label> <br>
+                    <input class="input-text input-text__size_m" type="text" name="name">
                   </div>
                   <div class="form__phone">
-                    <h6 class="type__header">Телефон</h6>
-                    <input type="tel" name="" id="">
+                    <label class="input-header" for="phone">Телефон</label> <br>
+                    <input class="input-text input-text__phone_border-color" type="number" name="phone" id="">
                   </div>
                 </div>
 
                   <div class="form__street">
-                    <h6 class="type__header">Улица</h6>
-                    <input type="text">
+                    <label class="input-header" for="street">Улица</label><br>
+                    <input class="input-text input-text__size_l" type="text" name="street">
                   </div>
                   
                   <div class="form__left-group">
                     <div class="item">
-                      <h6 class="type__header">Дом</h6>
-                      <input type="text">
+                      <label class="input-header" for="house">Дом</label><br>
+                      <input class="input-text input-text__size_s" type="text" name="house">
                     </div>
                     <div class="item">
-                      <h6 class="type__header">Корпус</h6>
-                      <input type="text">
+                      <label class="input-header" for="housing">Корпус</label><br>
+                      <input class="input-text input-text__size_s" type="text" name="housing">
                     </div>
                     <div class="item">
-                      <h6 class="type__header">Квартира</h6>
-                      <input type="text">
+                      <label class="input-header" for="flat">Квартира</label><br>
+                      <input class="input-text input-text__size_s" type="text" name="flat">
                     </div>
                     <div class="item">
-                      <h6 class="type__header">Этаж</h6>
-                      <input type="text">
+                      <label class="input-header" for="floor">Этаж</label><br>
+                      <input class="input-text input-text__size_s" type="text" name="floor">
                     </div>
                   </div>
               </div>
+
               <div class="form__right">
-                <h6>Коментарии</h6>
-                <textarea name="" id="" cols="30" rows="10"></textarea>
-                <input type="radio" name="" id="">
-                <input type="radio" name="" id="">
+                <label class="input-header" for="comments">Коментарии</label>
+                <textarea name="comments" id="" cols="30" rows="10"></textarea>
+                
+                <label class="order__radio" for="payment">
+                  <input class="order__radio-elem" type="radio" name="payment">
+                  <div class="order__radio-fake">
+                    ::after;
+                  </div>
+                  <div class="order__radio-title">Потребуется сдача</div>
+                </label>
+                <label class="order__radio">
+                  <input class="order__radio-elem" type="radio" name="payment">
+                  <div class="order__radio-fake">
+                    ::after == $0
+                  </div>
+                  <div class="order__radio-title">Оплата по карте</div>
+                </label>
+                
+                <label class="order__radio" >
+                  <input class="order__radio-elem" name="callback" type="checkbox">
+                  <div class="order__radio-fake">
+                    :after;
+                  </div>
+                  <div class="order__radio-title">Не перезванивать</div>
+                </label>
                 
               </div> 
             </div>
           </form>
       </div>
-  </div>
+  </section>
 </div>
 
 </body>
