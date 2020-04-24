@@ -87,9 +87,11 @@
   font-size: 17px;
   font-weight: 400;
 }
-
-.headSection__button{
+.headSection__button {
   margin-top: 10px;
+}
+
+.button{
   width: 156px;
   height: 58px;
   border: 1px solid;

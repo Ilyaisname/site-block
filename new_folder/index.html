@@ -43,10 +43,8 @@
       <h1 class="headSection__header">Натуральные шоколадные батончики</h1>
       <p class="headSection__slogan">Наши батончики идеально подходят для<br>
       тех, кто следит за своим здоровьем</p>
-      <button class="headSection__button">
-        заказать
-      </button> 
-    
+      <div class="headSection__button"><button class="button">заказать</button>
+      </div>
 
     <div class="iconsFooter">
       <div class="iconsFooter__icons">
@@ -133,45 +131,46 @@
 
   <!-- block-three -->
   <div id="block-three">
-    <div id="decor-three-block">
-      <div id="ellipse">
+    <div class="decorWrap">
+      <div class="decorWrap__ellipse">
         <img src="src/images/block_three/elips.png" alt="ellipse">
       </div>
-      <div id="bars-three-block">
+      <div class="decorWrap__bars">
         <img src="src/images/block_three/bars-three-block.png" alt="bars-three-block">
       </div>
-      <div id="list-three-block">
+      <div class="decorWrap__lists">
         <img src="src/images/block_three/lists-block-three.png" alt="list-three-block">
       </div>
-      <div id="image"> 
-      <img src="src/images/command_block_images/Background_pattern.png" alt="Background_pattern">
-      
-      <div id="berry1"> 
-        <img src="src/images/command_block_images/Berry1.png" alt="Berry">
+      <div class="decorWrap__pattern"> 
+        <img src="src/images/command_block_images/Background_pattern.png" alt="Background_pattern">
+        <div class="pattern__berry"> 
+          <img src="src/images/command_block_images/Berry1.png" alt="Berry">
+        </div>
       </div>
-     </div>
-     <div id="arrow-left"><button><img src="src/images/block_three/arrow-scroll_left.png" alt=""></button></div>
-     <div id="arrow-right"><button><img src="src/images/block_three/arrow-scroll_right.png" alt=""></button></div> 
+     <div class="decorWrap__arrow-left">
+       <button class="arrow-button"><img src="src/images/block_three/arrow-scroll_left.png" alt=""></button></div>
+     <div class="decorWrap__arrow-right">
+       <button class="arrow-button"><img src="src/images/block_three/arrow-scroll_right.png" alt=""></button></div> 
     </div>
-    <div id="wrap">
-      <h2 id="header-three-block">Батончик “Морские 
+    <section class="bars">
+      <h2 class="bars__header">Батончик “Морские 
         водоросли”</h2>
-        <h6>Состав:</h6>
-        <p>Гранола из морских водорослей с овсом, миндалем и тыквенными семечками. 
+        <h6 class="bars__structure">Состав:</h6>
+        <p class="bars__text">Гранола из морских водорослей с овсом, миндалем и тыквенными семечками. 
           В состав также входят: сухое молоко, заменитель сахара и какао бобы.</p>
-          <div id="wrap-side">
-            <div>
-              <div class="str">Калорийность</div>
-              <div class="num">120 ккал</div>
-              <div class="rub">140 <i>₽</i> </div>
+          <div class="wrap-side">
+            <div class="wrap-side__left">
+              <div class="string">Калорийность</div>
+              <div class="numbers">120 ккал</div>
+              <div class="rub">140 <span class="rub__sign">₽</span> </div>
             </div>
-            <div>
-              <div class="str">Вес</div>
-              <div class="num">98 грамм</div>
-              <div><button id="but-three-block">Заказать</button></div>
+            <div class="wrap-side__right">
+              <div class="string">Вес</div>
+              <div class="numbers">98 грамм</div>
+              <div class="write-side__button"><button class="button write-side__button_color_green" >Заказать</button></div>
             </div>
           </div>
-    </div>
+    </section>
 
   </div>
 

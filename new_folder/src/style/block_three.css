@@ -4,7 +4,7 @@
   background-color: #f8faf9;
 }
 /* decor-block */
-#image {
+.decorWrap__pattern {
   position: absolute;
   width: 196px;
   height: 578px;
@@ -13,7 +13,7 @@
   z-index: 1;
 }
 
-#berry1 {
+.pattern__berry {
   width: 135px;
   height: 112px;
   position: absolute;
@@ -24,25 +24,25 @@
   bottom: 293px;
 }
 
-#ellipse {
+.decorWrap__ellipse {
   position: absolute;
   top: 187px;
   left: 145px;
 }
 
-#bars-three-block {
+.decorWrap__bars {
   position: absolute;
   top: 112px;
   left: 139px;
 }
 
-#list-three-block {
+.decorWrap__lists {
   position: absolute;
   top: 206px;
   left: 78px;
 }
 
-#arrow-left {
+.decorWrap__arrow-left {
   margin: 317px 0 0 46px; 
   position: absolute;
   width: 13px;
@@ -51,27 +51,21 @@
   
 }
 
-#arrow-left button{
+.arrow-button{
   border: none;
   background-color: snow;
 }
 
-#arrow-right { 
+.decorWrap__arrow-right { 
   margin: 317px 0 0 1011px;
   position: absolute;
   width: 13px;
   height: 28px;
   z-index: 3;
-  
-}
-
-#arrow-right button {
-  border: none;
-  background-color: snow;
 }
 
 /* main */
-#wrap {
+.bars {
   display: flex;
   flex-direction: column;
   width: 35%;
@@ -79,7 +73,7 @@
   padding-left: 619px;
 }
 
-#header-three-block {
+.bars__header {
   font-family: "Alegreya Sans",sans-serif;
   font-size: 33px;
   font-weight: 700;
@@ -87,7 +81,7 @@
   margin: 0;
 }
 
-#wrap h6 {
+.bars__structure {
   margin: 41px 0 0 0 ;
   font-family: "Alegreya Sans";
   font-size: 24px;
@@ -96,7 +90,7 @@
   font-weight: bold;
 }
 
-#wrap p {
+.bars__text {
   margin: 33px 0 0 0;
   font-family: "Alegreya Sans",sans-serif;
   font-size: 18px;
@@ -105,12 +99,12 @@
   text-align: left;
 }
 
-#wrap-side {
+.wrap-side {
   display: flex;
   max-width: 156px;
 }
 
-.str {
+.string {
   color: #333333;
   font-family: "Alegreya Sans",sans-serif;
   font-size: 18px;
@@ -118,7 +112,7 @@
   margin: 45px 25px 0 0;
 }
 
-.num {
+.numbers {
   color: #333333;
   font-family: "Alegreya Sans",sans-serif;
   font-size: 14px;
@@ -135,23 +129,16 @@
   margin-top: 35px;
 }
 
-#but-three-block {
-  background-color: #0f5a47;
-  width: 156px;
-  height: 58px;
-  border: 1px solid;
-  border-radius: 42px;
-  color: #ffffff;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 16px;
-  font-family: "Alegreya Sans", sans-serif;
-  position: relative;
-  z-index: 1;
+.write-side__button {
   margin-top: 35px;
 }
 
-#wrap-side i {
+.write-side__button_color_green {
+  background-color: #0f5a47;
+  color: #ffffff;
+}
+
+.rub__sign {
   font-size: 50px;
   font-style: initial;
   font-weight: 100;
