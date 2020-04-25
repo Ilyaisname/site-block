@@ -287,31 +287,41 @@
               <div class="form__right">
                 <label class="input-header" for="comments">Коментарии</label>
                 <textarea name="comments" id="" cols="30" rows="10"></textarea>
-                
-                <label class="order__radio" for="payment">
-                  <input class="order__radio-elem" type="radio" name="payment">
-                  <div class="order__radio-fake">
-                    ::after;
-                  </div>
-                  <div class="order__radio-title">Потребуется сдача</div>
-                </label>
-                <label class="order__radio">
-                  <input class="order__radio-elem" type="radio" name="payment">
-                  <div class="order__radio-fake">
-                    ::after == $0
-                  </div>
-                  <div class="order__radio-title">Оплата по карте</div>
-                </label>
-                
-                <label class="order__radio" >
-                  <input class="order__radio-elem" name="callback" type="checkbox">
-                  <div class="order__radio-fake">
-                    :after;
-                  </div>
-                  <div class="order__radio-title">Не перезванивать</div>
-                </label>
+                <div class="radio-wrap">
+                  <label class="order__radio" for="payment">
+                    <input class="order__radio-elem" type="radio" name="payment">
+                    <div class="order__radio-fake">
+                    </div>
+                    <div class="order__radio-title">Потребуется сдача</div>
+                  </label>
+
+                  <label class="order__radio" for="payment">
+                    <input class="order__radio-elem" type="radio" name="payment">
+                    <div class="order__radio-fake">
+                    
+                    </div>
+                    <div class="order__radio-title">Оплата по карте</div>
+                  </label>
+                    
+
+                  <label class="order__radio" >
+                    <input class="order__radio-elem" name="callback" type="checkbox">
+                    <div class="order__radio-fake">
+            
+                    </div>
+                    <div class="order__radio-title">Не перезванивать</div>
+                  </label>
+                </div>
                 
               </div> 
+              
+            </div>
+            <div class="form__button">
+              <button class="button write-side__button_color_green">
+                заказать
+              </button>
+
+              
             </div>
           </form>
       </div>
