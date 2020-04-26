@@ -1,11 +1,7 @@
-.formWrap{
+.section-form{
   position: relative;
   height: 667px;
   background-image: url(C:/Users/Home/Documents/new/site-firstBlock/new_folder/src/images/block_form/fon.png);
-}
-
-.form {
-
 }
 
 .form__header{
@@ -169,6 +165,7 @@
   justify-content: flex-end;
   align-items: center;
   width: 890px;
+  padding-bottom: 85px;
 }
 
 .order__checkbox-elem:checked +.order__radio-back:after {
@@ -193,4 +190,25 @@
   font-size: 18px;
   font-weight: 400;
   line-height: 30.05px;
+}
+
+.section-decor__image-item1{
+  position: absolute;
+  bottom: 108px;
+  right: 4px;
+ 
+}
+
+.section-decor__image-item2 {
+  position: absolute;
+    top: -138px;
+    right: 0;
+    width: 200px;
+    overflow: hidden;
+}
+
+.section-decor__image-item3 {
+  position: absolute;
+  bottom: 60px;
+  left: 20px;
 }
