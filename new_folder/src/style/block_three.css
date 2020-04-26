@@ -1,10 +1,10 @@
-#block-three {
+.block-slider {
   position: relative;
   height: 654px;
   background-color: #f8faf9;
 }
 /* decor-block */
-.decorWrap__pattern {
+.decorwrap__pattern {
   position: absolute;
   width: 196px;
   height: 578px;
@@ -24,25 +24,7 @@
   bottom: 293px;
 }
 
-.decorWrap__ellipse {
-  position: absolute;
-  top: 187px;
-  left: 145px;
-}
-
-.decorWrap__bars {
-  position: absolute;
-  top: 112px;
-  left: 139px;
-}
-
-.decorWrap__lists {
-  position: absolute;
-  top: 206px;
-  left: 78px;
-}
-
-.decorWrap__arrow-left {
+.decorwrap__arrow-left {
   margin: 317px 0 0 46px; 
   position: absolute;
   width: 13px;
@@ -56,7 +38,7 @@
   background-color: snow;
 }
 
-.decorWrap__arrow-right { 
+.decorwrap__arrow-right { 
   margin: 317px 0 0 1011px;
   position: absolute;
   width: 13px;
@@ -65,15 +47,48 @@
 }
 
 /* main */
-.bars {
+.slider {
+  width: 950px;
   display: flex;
-  flex-direction: column;
-  width: 35%;
-  padding-top: 130px; 
-  padding-left: 619px;
+  margin-left: 6%;
 }
 
-.bars__header {
+/* left */
+
+.slider__left {
+  width: 50%;
+  position: relative;
+}
+
+.slider__left-ellipse {
+  position: absolute;
+  top: 187px;
+  left: 67px;
+}
+
+.slider__left-bars {
+  position: absolute;
+  top: 112px;
+  left: 61px;
+}
+
+.slider__left-lists {
+  position: absolute;
+  top: 206px;
+  left: 4px;
+}
+
+/* right */
+
+.slider__right {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding-top: 130px;
+  padding-left: 80px;
+}
+
+.slider__right-header {
   font-family: "Alegreya Sans",sans-serif;
   font-size: 33px;
   font-weight: 700;
@@ -81,7 +96,7 @@
   margin: 0;
 }
 
-.bars__structure {
+.slider__right-structure {
   margin: 41px 0 0 0 ;
   font-family: "Alegreya Sans";
   font-size: 24px;
@@ -90,7 +105,7 @@
   font-weight: bold;
 }
 
-.bars__text {
+.slider__right-text {
   margin: 33px 0 0 0;
   font-family: "Alegreya Sans",sans-serif;
   font-size: 18px;
@@ -99,7 +114,7 @@
   text-align: left;
 }
 
-.wrap-side {
+.slider__right-wrap {
   display: flex;
   max-width: 156px;
 }
@@ -120,17 +135,18 @@
 }
 
 .rub {
-  font-family: "Alegreya Sans";
+  font-family: "Alegreya Sans",sans-serif;
   font-size: 55px;
-  font-weight: 300;
+  font-weight: 100;
   line-height: 60px;
   text-transform: uppercase;
   color: #0d0d0d;  
   margin-top: 35px;
 }
 
-.write-side__button {
+.wrap__right-button {
   margin-top: 35px;
+  padding-bottom: 88px;
 }
 
 .write-side__button_color_green {
@@ -143,3 +159,12 @@
   font-style: initial;
   font-weight: 100;
 }
+
+.button:hover {
+  background-color: rgb(198, 198, 253);
+  box-shadow: 10% black;
+}
+
+
+
+

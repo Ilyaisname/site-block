@@ -92,6 +92,8 @@
 .order__radio {
   width: 180px;
   padding: 5px;
+  flex-shrink: 1%;
+  flex-grow: 1;
 }
 
 .order__radio-title {
@@ -100,10 +102,9 @@
   font-weight: 400;
   line-height: 30.05px;
   color: #0f5a47;
-  /* padding-left: 2em; */
   position: relative;
-  padding: 0 0 0 35px;
   cursor: pointer;
+  padding-left: 25px;
 }
 .order__radio-elem {
   float: left;
@@ -112,13 +113,12 @@
   z-index: -1;
   opacity: 0;
   margin: 10px 0 0 7px;
-  background-image: url(./../images/block_form/activ_icon.png);
 }
 
 .order__checkbox-elem {
   float: left;
   text-align: center;
-  /* position: absolute; */
+  position: absolute;
   /* z-index: -1; */
   opacity: 0;
   margin: 10px 0 0 7px;
@@ -130,37 +130,41 @@
   font-weight: 400;
   line-height: 30.05px;
   color: #0f5a47;
-  /* padding-left: 2em; */
   position: relative;
-  padding: 0 0 0 35px;
   cursor: pointer;
+  padding-left: 25px;
 }
-.order__radio-fake {
-  position: absolute;
-  opacity: 0;
+.order__radio-back {
+  width: 26px;
+  height: 26px;
+  background: #fff;
+  border-radius: 50%;
+  margin-right: 10px;
+  position: relative;
 }
 /* .order__radio-title:checked + .order__radio-elem {
   opacity: 1;
 } */
 
-.order__radio_checkbox .order__radio-elem:checked + .order__radio-fake:after{
-  background: url(./../images/block_form/activ_icon.png) 50% no-repeat;
+.order__radio-title:checked ~ .order__radio-fake:after{
+  /* background-image: url(./../images/block_form/activ_icon.png) 50% no-repeat; */
   width: 0.6875rem;
   height: 0.5625rem;
+  /* position: absolute;
+  opacity: 0; */
 }
 
-.order__radio_checkbox .order__radio-elem + .order__radio-fake:after {
+.order__radio-elem ~ .order__radio-fake:after {
   background: transparent;  
 }
 
 
 .order__radio-elem:checked {
-  /* width: 0.5rem;
-  height: 0.5rem; */
-  opacity: 1;
+  width: 0.5rem;
+  height: 0.5rem;
 }
 
-/* .order__radio-fake:after {
+.order__radio-fake:after {
   content: "";
   display: block;
   position: absolute;
@@ -172,7 +176,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   transition: width .3s, height .3s;
-}  */
+} 
 
 .form__button {
   display: flex;

@@ -1,6 +1,5 @@
-#block_one {
+.main-block {
   background-color: #61c4d9;
-  height: 650px;
   position: relative;
 }
 .header {
@@ -33,11 +32,11 @@
   padding-inline-start: 30px;
 }
 
-.navigation__menu li a:hover {
+.links:hover {
   color: rgb(255, 251, 2);
 }
 
-.navigation__menu li a {
+.links {
   text-decoration: none;
   color: #ffffff;
 }
@@ -66,7 +65,7 @@
     z-index: 3;
 }
 
-.headSection {
+.main-section {
   width: 404px;
   display: flex;
   flex-direction: column;
@@ -75,7 +74,7 @@
   
 }
 
-.headSection__header {
+.main-section__header {
   color: #ffffff;
   font-family: "Alegreya Sans", sans-serif;
   font-size: 48px;
@@ -85,13 +84,13 @@
   padding-bottom: 22px;
 }
 
-.headSection__slogan {
+.main-section__slogan {
   color: #ffffff;
   font-family: "Alegreya Sans", sans-serif;
   font-size: 17px;
   font-weight: 400;
 }
-.headSection__button {
+.main-section__button {
   padding-top: 32px;
 }
 
@@ -109,12 +108,13 @@
   z-index: 3;
 }
 
-.iconsFooter {
+.icons-footer {
   display: flex;
   justify-content: space-around;
   margin-left: 81px;
   margin-top: 72px;
   width: 460px;
+  padding-bottom: 50px;
 }
 /* 
 .iconsFooter__icons {
@@ -126,7 +126,7 @@
   padding: 5px;
 }
 
-.iconsFooter__text {
+.icons-footer__text {
   color: #ffffff;
   font-family: "Alegreya Sans", sans-serif;
   font-size: 15px;
@@ -134,7 +134,7 @@
   
 }
 
-.decorBlockOne {
+.decor-first{
   position: absolute;
   z-index: 2;
   top: 0px;
@@ -142,21 +142,21 @@
   
 }
 
-.decorBlockOne__bars {
+.decor-first__bars {
 position: absolute;
 top: 55px; 
 right: 28px;
 z-index: 2;
 }
 
-.decorBlockOne__list{
+.decor-first__list{
   position: absolute;
   bottom: -44px;
   right: 14px;
   z-index: 3;
 }
 
-.decorBlockOne__list__barries {
+.decor-first__list-barries {
   position: absolute;
   right: 90px;
   bottom: 3px;
