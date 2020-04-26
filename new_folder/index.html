@@ -259,48 +259,48 @@
               <div class="form__left">
                 <div class="form__name-phone-wrap">
                   <div class="form__name">
-                    <label class="input-header">Имя</label> <br>
-                    <input class="input-text input-text__size_m" type="text" name="name" placeholder="Имя">
+                    <label class="input-header" for="name">Имя</label> <br>
+                    <input class="input-text input-text__size_m" type="text" id="name" placeholder="Имя">
                   </div>
                   <div class="form__phone">
-                    <label class="input-header">Телефон</label> <br>
-                    <input class="input-text input-text__phone_border-color" type="text" name="phone" placeholder="Телефон">
+                    <label class="input-header" for="phone">Телефон</label> <br>
+                    <input class="input-text input-text__phone_border-color" id="phone" type="text" name="phone" placeholder="Телефон">
                   </div>
                 </div>
 
                   <div class="form__street">
-                    <label class="input-header">Улица</label><br>
-                    <input class="input-text input-text__size_l" type="text" name="street" placeholder="Улица">
+                    <label class="input-header" for="street">Улица</label><br>
+                    <input class="input-text input-text__size_l" type="text" id="street" placeholder="Улица">
                   </div>
                   
                   <div class="form__left-group">
                     <div class="item">
-                      <label class="input-header">Дом</label><br>
-                      <input class="input-text input-text__size_s" type="text" name="house" placeholder="Дом">
+                      <label class="input-header" for="house">Дом</label><br>
+                      <input class="input-text input-text__size_s" type="text" id="house" placeholder="Дом">
                     </div>
                     <div class="item">
-                      <label class="input-header">Корпус</label><br>
-                      <input class="input-text input-text__size_s" type="text" name="housing" placeholder="Корпус">
+                      <label class="input-header" for="housing">Корпус</label><br>
+                      <input class="input-text input-text__size_s" type="text" id="housing" placeholder="Корпус">
                     </div>
                     <div class="item">
-                      <label class="input-header">Квартира</label><br>
-                      <input class="input-text input-text__size_s" type="text" name="flat" placeholder="Квартира">
+                      <label class="input-header" for="flat">Квартира</label><br>
+                      <input class="input-text input-text__size_s" type="number" id="flat" placeholder="Квартира">
                     </div>
                     <div class="item">
-                      <label class="input-header">Этаж</label><br>
-                      <input class="input-text input-text__size_s" type="text" name="floor" placeholder="Этаж">
+                      <label class="input-header" for="floor">Этаж</label><br>
+                      <input class="input-text input-text__size_s" type="number" id="floor" placeholder="Этаж">
                     </div>
                   </div>
               </div>
 
               <div class="form__right">
-                <label class="input-header">Коментарии</label>
+                <label class="input-header" for="comments">Коментарии</label>
                 <textarea id="comments" cols="30" rows="10"></textarea>
                 <div class="radio-wrap">
                   <label class="order__radio">
                     <input class="order__radio-elem" type="radio" name="payment">
                     <span class="order__radio-back">
-                      <!-- <img src="src/images/block_form/activ_icon.png" alt=""> -->
+                      
                     </span>
                     <span class="order__radio-title">Потребуется сдача</span>
                   </label>
@@ -308,15 +308,15 @@
                   <label class="order__radio">
                     <input class="order__radio-elem" type="radio" name="payment">
                     <span class="order__radio-back">
-                      <!-- <img src="src/images/block_form/activ_icon.png" alt=""> -->
+                      
                     </span>
                     <span class="order__radio-title">Оплата по карте</span>
                   </label>
                     
 
                   <label class="order__radio">
-                    <input class="order__checkbox-elem" id="callback" type="checkbox">
-                    <span class="order__radio-back">
+                    <input class="order__checkbox-elem " id="callback" type="checkbox">
+                    <span class="order__radio-back order__radio-back-bradius-0">
                       
                     </span>
                     <span class="order__checkbox-title">Не перезванивать</span>
@@ -330,6 +330,7 @@
               <button class="button write-side__button_color_green">
                 заказать
               </button>
+              <input class="reset_button" type="reset" value="Очистить">
 
               
             </div>

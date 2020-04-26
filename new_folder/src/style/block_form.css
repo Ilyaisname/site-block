@@ -42,6 +42,10 @@
   font-size: 24px;
 }
 
+.input-text .input-header:focus {
+  border: 3px solid #8be6cf;
+}
+
 .input-text__size_s {
   width: 100px;
   height: 59px;
@@ -94,6 +98,7 @@
   padding: 5px;
   flex-shrink: 1%;
   flex-grow: 1;
+  position: relative;
 }
 
 .order__radio-title {
@@ -104,8 +109,9 @@
   color: #0f5a47;
   position: relative;
   cursor: pointer;
-  padding-left: 25px;
+  padding-left: 35px;
 }
+
 .order__radio-elem {
   float: left;
   text-align: center;
@@ -132,7 +138,7 @@
   color: #0f5a47;
   position: relative;
   cursor: pointer;
-  padding-left: 25px;
+  padding-left: 35px;
 }
 .order__radio-back {
   width: 26px;
@@ -140,42 +146,22 @@
   background: #fff;
   border-radius: 50%;
   margin-right: 10px;
-  position: relative;
-}
-/* .order__radio-title:checked + .order__radio-elem {
-  opacity: 1;
-} */
-
-.order__radio-title:checked ~ .order__radio-fake:after{
-  /* background-image: url(./../images/block_form/activ_icon.png) 50% no-repeat; */
-  width: 0.6875rem;
-  height: 0.5625rem;
-  /* position: absolute;
-  opacity: 0; */
-}
-
-.order__radio-elem ~ .order__radio-fake:after {
-  background: transparent;  
-}
-
-
-.order__radio-elem:checked {
-  width: 0.5rem;
-  height: 0.5rem;
-}
-
-.order__radio-fake:after {
-  content: "";
-  display: block;
   position: absolute;
-  width: 0rem;
-  height: 0rem;
-  border-radius: 50%;
-  background-color: #0f5a47;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  transition: width .3s, height .3s;
+}
+
+.order__radio-back-bradius-0 {
+  border-radius: 0;
+}
+.order__radio-elem:checked +.order__radio-back:after {
+  content: "";
+  width: 16px;
+  height: 15px;
+  border-radius: 15px;
+  position: absolute;
+  bottom: 25%;
+  left: 22%;
+  display: block;
+  background: url("../images/block_form/radius_labl.png") 50% no-repeat;
 } 
 
 .form__button {
@@ -183,4 +169,28 @@
   justify-content: flex-end;
   align-items: center;
   width: 890px;
+}
+
+.order__checkbox-elem:checked +.order__radio-back:after {
+  content: "";
+  width: 16px;
+  height: 15px;
+  border-radius: 15px;
+  position: absolute;
+  bottom: 25%;
+  left: 22%;
+  display: block;
+  background: url("../images/block_form/second_icons.png") 50% no-repeat;
+} 
+
+.reset_button {
+  border: 0;
+  cursor: pointer;
+  margin-left: 29px;
+  background: 0;
+  color: #0f5a47;
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30.05px;
 }
