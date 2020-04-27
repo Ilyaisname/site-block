@@ -85,12 +85,12 @@
   flex-direction: column;
   width: 50%;
   padding-top: 130px;
-  padding-left: 80px;
+  padding-left: 66px;
 }
 
 .slider__right-header {
   font-family: "Alegreya Sans",sans-serif;
-  font-size: 33px;
+  font-size: 36px;
   font-weight: 700;
   text-transform: uppercase;
   margin: 0;
@@ -137,11 +137,15 @@
 .rub {
   font-family: "Alegreya Sans",sans-serif;
   font-size: 55px;
-  font-weight: 100;
+  font-weight: 300;
   line-height: 60px;
   text-transform: uppercase;
   color: #0d0d0d;  
   margin-top: 35px;
+}
+
+.wrap__right {
+  margin-left: 30px;
 }
 
 .wrap__right-button {

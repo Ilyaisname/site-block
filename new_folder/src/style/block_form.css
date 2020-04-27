@@ -1,12 +1,11 @@
 .section-form{
   position: relative;
-  height: 667px;
   background-image: url(C:/Users/Home/Documents/new/site-firstBlock/new_folder/src/images/block_form/fon.png);
 }
 
 .form__header{
   font-family: "Alegreya Sans", sans-serif;
-  font-size: 44px;
+  font-size: 48px;
   font-weight: 700;
   text-transform: uppercase;
   color:#0f5a47;
@@ -29,7 +28,7 @@
 .input-header {
   color: #0f5a47;
   font-family: "Alegreya Sans",sans-serif;
-  font-size: 12px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 30.05px;
 }
@@ -99,7 +98,7 @@
 
 .order__radio-title {
   font-family: "Alegreya Sans", sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 30.05px;
   color: #0f5a47;
@@ -128,7 +127,7 @@
 
 .order__checkbox-title {
   font-family: "Alegreya Sans", sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 30.05px;
   color: #0f5a47;
@@ -165,6 +164,7 @@
   justify-content: flex-end;
   align-items: center;
   width: 890px;
+  padding-top: 42px;
   padding-bottom: 85px;
 }
 
