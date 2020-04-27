@@ -170,7 +170,7 @@
 
 .order__checkbox-elem:checked +.order__radio-back:after {
   content: "";
-  width: 16px;
+  width: 15px;
   height: 15px;
   border-radius: 15px;
   position: absolute;
