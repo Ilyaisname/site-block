@@ -1,6 +1,7 @@
 .main-block {
   background-color: #61c4d9;
   position: relative;
+  animation: fadeInUp 1.5s;
 }
 .header {
   display: flex;
@@ -205,4 +206,19 @@ z-index: 2;
 
 .sidebar__cercle:hover{
   background-image: url(C:/Users/Home/Documents/new/site-block2/src/images/head_block_images/Ellipse_3.png);
+}
+
+/* animation */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
 }
