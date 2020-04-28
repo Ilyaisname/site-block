@@ -1,0 +1,92 @@
+.block-about-us {
+  position: relative;
+  background-color: #ffffff;
+}
+
+/* декор блока */
+.decor-wrap__patern {
+  position: absolute;
+  top: 189px;
+  left: 0;
+}
+
+.decor-wrap__berry {
+  position: absolute;
+  top: 445px;
+  z-index: 2;
+}
+
+/* тема блока два */
+.aboutus {
+display: flex;
+align-items: center;
+flex-direction: column ;
+padding-top: 5.2em;
+
+}
+
+.aboutus__header {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 36px;
+  text-transform: uppercase;
+  margin: 0;
+  color: #0d0d0d;
+  font-weight: 700;
+}
+
+.aboutus__paragraf {
+  text-align: center;
+  color: #323232;
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 18px;
+  margin-block-end: 0;
+  margin-top: 23px;
+}
+/* ---- */
+.whychocco {
+  display: flex;
+  justify-content: center;
+  margin-top: 57px;
+}
+
+.picture__caption {
+  color: #000000;
+  font-family: "Alegreya Sans";
+  font-size: 27px;
+  font-weight: bold;
+  text-align: center;
+  margin: 35px 0 25px 0;
+}
+
+.picture__text {
+  text-align: center;
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 18px;
+  color: #323232;
+  font-weight: 300;
+}
+
+.pictures {
+  width: 125px;
+  height: 125px;
+  /* text-align: center; */
+  display: inline-block;
+  background-color: #f2f5f4;
+  border-radius: 50%;
+}
+
+.whychocco__picture {
+  width: 258px;
+  margin: 0;
+  text-align: center;
+  padding-bottom: 123px;
+}
+
+.whychocco__picture img {
+  padding: 25px;
+}
+
+.whychocco__points {
+  max-width: 67px;
+  margin: 52px 0 0 0;
+}
