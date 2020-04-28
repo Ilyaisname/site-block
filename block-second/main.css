@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100;300;400;500;700;800;900&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 .block-about-us {
   position: relative;
   background-color: #ffffff;
@@ -43,17 +51,17 @@ padding-top: 5.2em;
   margin-top: 23px;
 }
 /* ---- */
-.whychocco {
+/* .whychocco {
   display: flex;
   justify-content: center;
   margin-top: 57px;
-}
+} */
 
 .picture__caption {
   color: #000000;
-  font-family: "Alegreya Sans";
+  font-family: "Alegreya Sans", sans-serif;
   font-size: 27px;
-  font-weight: bold;
+  font-weight: 700;
   text-align: center;
   margin: 35px 0 25px 0;
 }
@@ -69,24 +77,47 @@ padding-top: 5.2em;
 .pictures {
   width: 125px;
   height: 125px;
-  /* text-align: center; */
   display: inline-block;
   background-color: #f2f5f4;
   border-radius: 50%;
+  padding: 25px;
 }
 
 .whychocco__picture {
   width: 258px;
   margin: 0;
   text-align: center;
-  padding-bottom: 123px;
+  padding-bottom: 60px;
 }
 
-.whychocco__picture img {
+/* .whychocco__picture img {
   padding: 25px;
-}
+} */
 
 .whychocco__points {
-  max-width: 67px;
   margin: 52px 0 0 0;
+}
+
+.bz-border {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.bz-content {
+  box-sizing: content-box;    
+  display: flex;
+  justify-content: center;
+}
+
+.bz__header {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 36px;
+  text-transform: uppercase;
+  margin: 0;
+  color: #0d0d0d;
+  font-weight: 700;
+  text-align: center;
 }
