@@ -32,13 +32,29 @@
   padding-left: 30px;
 }
 
-.links:hover {
-  color: rgb(255, 251, 2);
+.links:after {
+  content: "";
+  background-color: currentColor;
+  display: block;
+  height: 2px;
+  width: 0;
+  transition-timing-function: linear; 
+  transition-duration: .2s; 
+  transition-property: width;
+}
+
+.links:hover:after {
+  width: 100%;
 }
 
 .links {
   text-decoration: none;
   color: #ffffff;
+  transition: .2s;
+}
+
+.links:hover {
+  color: #FF8C00;
 }
 
 .navigation__links{
@@ -55,14 +71,13 @@
   z-index: 3;
 }
 
-.header__phone-num{
-  color: #ffffff;
-    font-family: "Alegreya Sans", sans-serif;
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 30px;
-    text-transform: uppercase;
-    z-index: 3;
+.header__phone-num {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  text-transform: uppercase;
+  z-index: 3;
 }
 
 .main-section {
