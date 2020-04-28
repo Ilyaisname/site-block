@@ -1,6 +1,5 @@
 .block-slider {
   position: relative;
-  height: 654px;
   background-color: #f8faf9;
 }
 /* decor-block */
@@ -116,7 +115,6 @@
 
 .slider__right-wrap {
   display: flex;
-  max-width: 156px;
 }
 
 .string {
@@ -166,7 +164,7 @@
 
 .button:hover {
   background-color: rgb(198, 198, 253);
-  box-shadow: 10% black;
+  box-shadow: 2px 2px black;
 }
 
 

@@ -1,6 +1,6 @@
 .section-form{
   position: relative;
-  background-image: url(C:/Users/Home/Documents/new/site-firstBlock/new_folder/src/images/block_form/fon.png);
+  background-image: url(./../images/block_form/fon.png);
 }
 
 .form__header{
@@ -91,7 +91,6 @@
 .order__radio {
   width: 180px;
   padding: 5px;
-  flex-shrink: 1%;
   flex-grow: 1;
   position: relative;
 }

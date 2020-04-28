@@ -29,7 +29,7 @@
 
 .navigation__menu{
   list-style-type: none;
-  padding-inline-start: 30px;
+  padding-left: 30px;
 }
 
 .links:hover {
