@@ -34,20 +34,21 @@
 }
 
 .input-text {
-  font-size: 24px;
+  font-size: 18px;
+  transition: 1s;
 }
 
 .input-text .input-header:focus {
-  border: 3px solid #8be6cf;
+  border: 3px solid #FF8C00;
 }
 
 .input-text__size_s {
-  width: 100px;
+  width: 96px;
   height: 59px;
 }
 
 .input-text__size_m {
-  width: 223px;
+  width: 210px;
   height: 59px;
 }
 
@@ -57,7 +58,7 @@
 }
 
 .input-text__phone_border-color {
-  width: 223px;
+  width: 224px;
   height: 59px;
   border: 3px solid #dde3bd;
 }
@@ -189,6 +190,13 @@
   font-size: 18px;
   font-weight: 400;
   line-height: 30.05px;
+  transition: .5s  ease-in-out;
+}
+
+.reset_button:hover {
+  color: #FF8C00;
+  border-bottom: 1px solid currentColor;
+  text-shadow: 1px 1px black;
 }
 
 .section-decor__image-item1{

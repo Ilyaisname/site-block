@@ -163,8 +163,8 @@
 }
 
 .button:hover {
-  background-color: rgb(198, 198, 253);
-  box-shadow: 2px 2px black;
+  background-color: #FF8C00;
+  box-shadow: 2px 3px black;
 }
 
 
