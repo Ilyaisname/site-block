@@ -261,7 +261,7 @@
                 <div class="form__name-phone-wrap">
                   <div class="form__name">
                     <label class="input-header" for="name">Имя</label> <br>
-                    <input class="input-text input-text__size_m" required type="text" id="name" placeholder="Имя">
+                    <input class="input-text input-text__size_m" required type="text" id="name" name="name" placeholder="Имя">
                   </div>
                   <div class="form__phone">
                     <label class="input-header" for="phone">Телефон</label> <br>
@@ -271,32 +271,32 @@
 
                   <div class="form__street">
                     <label class="input-header" for="street">Улица</label><br>
-                    <input class="input-text input-text__size_l" type="text" required id="street" placeholder="Улица">
+                    <input class="input-text input-text__size_l" type="text" required id="street" name="street" placeholder="Улица">
                   </div>
                   
                   <div class="form__left-group">
                     <div class="item">
                       <label class="input-header" for="house">Дом</label><br>
-                      <input class="input-text input-text__size_s" required type="text" id="house" placeholder="Дом">
+                      <input class="input-text input-text__size_s" required type="text" id="house" name="house" placeholder="Дом">
                     </div>
                     <div class="item">
                       <label class="input-header" for="housing">Корпус</label><br>
-                      <input class="input-text input-text__size_s" type="text" required id="housing" placeholder="Корпус">
+                      <input class="input-text input-text__size_s" type="text" required id="housing" name="housing" placeholder="Корпус">
                     </div>
                     <div class="item">
                       <label class="input-header" for="flat">Квартира</label><br>
-                      <input class="input-text input-text__size_s" type="number" required id="flat" placeholder="Квартира">
+                      <input class="input-text input-text__size_s" type="number" required id="flat" name="flat" placeholder="Квартира">
                     </div>
                     <div class="item">
                       <label class="input-header" for="floor">Этаж</label><br>
-                      <input class="input-text input-text__size_s" type="number" required id="floor" placeholder="Этаж">
+                      <input class="input-text input-text__size_s" type="number" name="floor" required id="floor" placeholder="Этаж">
                     </div>
                   </div>
               </div>
 
               <div class="form__right">
                 <label class="input-header" for="comments">Коментарии</label>
-                <textarea id="comments" cols="30" rows="10"></textarea>
+                <textarea id="comments" name="comments" cols="30" rows="10"></textarea>
                 <div class="radio-wrap">
                   <label class="order__radio">
                     <input class="order__radio-elem" type="radio" name="payment">
@@ -313,7 +313,7 @@
                   </label>
                     
                   <label class="order__radio">
-                    <input class="order__checkbox-elem " id="callback" type="checkbox">
+                    <input class="order__checkbox-elem " id="callback" name="callback" type="checkbox">
                     <span class="order__radio-back order__radio-back-bradius-0">
                     </span>
                     <span class="order__checkbox-title">Не перезванивать</span>
