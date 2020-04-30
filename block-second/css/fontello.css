@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'fontello';
-  src: url('../font/fontello.eot?78438852');
-  src: url('../font/fontello.eot?78438852#iefix') format('embedded-opentype'),
-       url('../font/fontello.woff2?78438852') format('woff2'),
-       url('../font/fontello.woff?78438852') format('woff'),
-       url('../font/fontello.ttf?78438852') format('truetype'),
-       url('../font/fontello.svg?78438852#fontello') format('svg');
+  src: url('../font/fontello.eot?60420190');
+  src: url('../font/fontello.eot?60420190#iefix') format('embedded-opentype'),
+       url('../font/fontello.woff2?60420190') format('woff2'),
+       url('../font/fontello.woff?60420190') format('woff'),
+       url('../font/fontello.ttf?60420190') format('truetype'),
+       url('../font/fontello.svg?60420190#fontello') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -15,7 +15,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'fontello';
-    src: url('../font/fontello.svg?78438852#fontello') format('svg');
+    src: url('../font/fontello.svg?60420190#fontello') format('svg');
   }
 }
 */
@@ -24,6 +24,7 @@
   font-family: "fontello";
   font-style: normal;
   font-weight: normal;
+  speak: none;
  
   display: inline-block;
   text-decoration: inherit;
@@ -31,12 +32,10 @@
   margin-right: .2em;
   text-align: center;
   /* opacity: .8; */
- 
+  font-size: 400%;
   /* For safety - reset parent styles, that can break glyph codes*/
   font-variant: normal;
   text-transform: none;
-  font-size: 400%;
-  padding-top: 20%;
  
   /* fix buttons height, for twitter bootstrap */
   line-height: 1em;
@@ -56,6 +55,6 @@
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
  
-.icon-1:before { content: '\e800'; } /* '' */
-.icon-2:before { content: '\e801'; } /* '' */
-.icon-3:before { content: '\e802'; } /* '' */
+.icon-asset-1:before { content: '\e800'; } /* '' */
+.icon-asset-4:before { content: '\e801'; } /* '' */
+.icon-asset-6:before { content: '\e802'; } /* '' */
