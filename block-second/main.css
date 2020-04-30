@@ -95,8 +95,61 @@ padding-top: 5.2em;
 } */
 
 .whychocco__points {
+  position: relative;
   margin: 52px 0 0 0;
+  width: 18px;
+  height: 18px;
+  background-color: #f2f5f4;
+  border-radius: 50%;
+  animation: points1 3s linear .3s infinite alternate;
 }
+
+
+
+.whychocco__points::before {
+  content: "";
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  background-color: #f2f5f4;
+  border-radius: 50%;
+  margin: 2px -18px;
+  animation: points1 3s linear infinite alternate;
+}
+
+.whychocco__points::after{
+  content: "";
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  background-color: #f2f5f4;
+  border-radius: 50%;
+  margin: 2px 22px;
+  animation: points1 3s linear .6s infinite alternate;
+}
+/* animation */
+@keyframes points1{
+  from {
+    opacity: 1;
+    animation-delay: .5s;
+    animation-timing-function: linear;
+    box-shadow:1px 1px 3px #323232;
+  }
+
+  50% {
+    opacity: 0;
+    background-color: #323232;
+    animation-timing-function: linear;
+    box-shadow:1px 1px 35px #323232;
+  }
+
+  to {
+    opacity: 1;
+    animation-timing-function: linear;
+    box-shadow:1px 1px 2px #323232;
+  }
+}
+/* ------ */
 
 .bz-border {
   box-sizing: border-box;
