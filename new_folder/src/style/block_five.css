@@ -10,4 +10,9 @@
   z-index: 2;
   top: -70px;
   left: 33px ;
+  transition: 1s;
+}
+
+.berry:hover {
+  transform: scale(1.2) rotate(4deg);
 }

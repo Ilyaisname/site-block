@@ -4,7 +4,7 @@
 }
 
 .form__header{
-  font-family: "Alegreya Sans", sans-serif;
+  
   font-size: 48px;
   font-weight: 700;
   text-transform: uppercase;
@@ -27,7 +27,7 @@
 
 .input-header {
   color: #0f5a47;
-  font-family: "Alegreya Sans",sans-serif;
+  
   font-size: 18px;
   font-weight: 400;
   line-height: 30.05px;
@@ -72,9 +72,6 @@
   justify-content: space-between;
 }
 
-/* .item {
-  
-} */
 
 .form__right{
   display: flex;
@@ -97,7 +94,7 @@
 }
 
 .order__radio-title {
-  font-family: "Alegreya Sans", sans-serif;
+  
   font-size: 18px;
   font-weight: 400;
   line-height: 30.05px;
@@ -126,7 +123,7 @@
 }
 
 .order__checkbox-title {
-  font-family: "Alegreya Sans", sans-serif;
+  
   font-size: 18px;
   font-weight: 400;
   line-height: 30.05px;
@@ -186,7 +183,6 @@
   margin-left: 29px;
   background: 0;
   color: #0f5a47;
-  font-family: "Alegreya Sans", sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 30.05px;
@@ -212,10 +208,18 @@
     right: 0;
     width: 200px;
     overflow: hidden;
+    transition: 1s;
+}
+
+.section-decor__image-item2:hover, 
+.section-decor__image-item3:hover {
+  transform: scale(1.2) rotate(4deg);
 }
 
 .section-decor__image-item3 {
   position: absolute;
   bottom: 60px;
   left: 20px;
+  transition: 1s;
 }
+

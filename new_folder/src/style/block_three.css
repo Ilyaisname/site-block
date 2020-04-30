@@ -21,6 +21,11 @@
   left: 46px ;
   right: 15px ;
   bottom: 293px;
+  transition: 1s;
+}
+
+.pattern__berry:hover {
+  transform: scale(1.2) rotate(4deg);
 }
 
 .decorwrap__arrow-left {
@@ -88,7 +93,6 @@
 }
 
 .slider__right-header {
-  font-family: "Alegreya Sans",sans-serif;
   font-size: 36px;
   font-weight: 700;
   text-transform: uppercase;
@@ -97,7 +101,6 @@
 
 .slider__right-structure {
   margin: 41px 0 0 0 ;
-  font-family: "Alegreya Sans";
   font-size: 24px;
   font-weight: 500;
   color: #323232;
@@ -106,7 +109,7 @@
 
 .slider__right-text {
   margin: 33px 0 0 0;
-  font-family: "Alegreya Sans",sans-serif;
+  
   font-size: 18px;
   font-weight: 400;
   color: #323232;
@@ -119,7 +122,7 @@
 
 .string {
   color: #333333;
-  font-family: "Alegreya Sans",sans-serif;
+  
   font-size: 18px;
   font-weight: 400;
   margin: 45px 25px 0 0;
@@ -127,13 +130,13 @@
 
 .numbers {
   color: #333333;
-  font-family: "Alegreya Sans",sans-serif;
+  
   font-size: 14px;
   font-weight: bold;
 }
 
 .rub {
-  font-family: "Alegreya Sans",sans-serif;
+  
   font-size: 55px;
   font-weight: 300;
   line-height: 60px;
