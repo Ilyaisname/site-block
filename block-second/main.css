@@ -104,8 +104,6 @@ padding-top: 5.2em;
   animation: points1 3s linear .3s infinite alternate;
 }
 
-
-
 .whychocco__points::before {
   content: "";
   position: absolute;
