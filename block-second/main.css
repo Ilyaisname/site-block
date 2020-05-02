@@ -74,6 +74,23 @@ padding-top: 5.2em;
   font-weight: 300;
 }
 
+.bz_content_pictures {
+  width: 72px;
+  height: 72px;
+  display: inline-block;
+  background-color: #f2f5f4;
+  border-radius: 50%;
+  padding: 25px;
+}
+
+.icon {
+  margin-left: -10px;
+}
+
+.icon3 {
+  margin-left: -14px;
+}
+
 .pictures {
   width: 125px;
   height: 125px;
