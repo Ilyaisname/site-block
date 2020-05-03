@@ -17,9 +17,11 @@
   transition: 1s;
 }
 
+/*CSS - уровень 2 (сложные селекторы) - Задание 1*/
 .decor-wrap__berry:hover {
   transform: scale(1.2) rotate(4deg);
 }
+/* ------------------ */
 
 /* тема блока два */
 .aboutus {
@@ -39,15 +41,14 @@ padding-top: 5.2em;
   font-weight: 700;
 }
 
-.aboutus__paragraf {
+.aboutus__paragraph {
   text-align: center;
   color: #323232;
-  
   font-size: 18px;
-  margin-block-end: 0;
   margin-top: 23px;
 }
 /* ---- */
+
 .whychocco {
   display: flex;
   justify-content: center;
@@ -71,7 +72,9 @@ padding-top: 5.2em;
   font-weight: 300;
 }
 
-.pictures__elm1, .pictures__elm2, .pictures__elm3 {
+.pictures__elm1, 
+.pictures__elm2, 
+.pictures__elm3 {
   box-sizing: border-box;
   width: 125px;
   height: 125px;
@@ -119,14 +122,15 @@ padding-top: 5.2em;
   position: relative;
 }
 
-.dots1, .dots2, .dots3 {
+.dots1,
+.dots2,
+.dots3 {
   display: inline-block;
   width: 13px;
   height: 13px;
   margin: 0 5px;
   border-radius: 50%;
   background-color: #f2f5f4;
-  
 }
 
 .dots1 {
@@ -282,51 +286,4 @@ padding-top: 5.2em;
     transform: translate3d(0, 0, 0);
   }
 }
-
-/* @-webkit-keyframes flip {
-  from {
-    -webkit-transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 0)
-      rotate3d(0, 1, 0, -360deg);
-    transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 0) rotate3d(0, 1, 0, -360deg);
-    -webkit-animation-timing-function: ease-out;
-    animation-timing-function: ease-out;
-  }
-
-  40% {
-    -webkit-transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 150px)
-      rotate3d(0, 1, 0, -190deg);
-    transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 150px)
-      rotate3d(0, 1, 0, -190deg);
-    -webkit-animation-timing-function: ease-out;
-    animation-timing-function: ease-out;
-  }
-
-  50% {
-    -webkit-transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 150px)
-      rotate3d(0, 1, 0, -170deg);
-    transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 150px)
-      rotate3d(0, 1, 0, -170deg);
-    -webkit-animation-timing-function: ease-in;
-    animation-timing-function: ease-in;
-  }
-
-  80% {
-    -webkit-transform: perspective(400px) scale3d(0.95, 0.95, 0.95) translate3d(0, 0, 0)
-      rotate3d(0, 1, 0, 0deg);
-    transform: perspective(400px) scale3d(0.95, 0.95, 0.95) translate3d(0, 0, 0)
-      rotate3d(0, 1, 0, 0deg);
-    -webkit-animation-timing-function: ease-in;
-    animation-timing-function: ease-in;
-  }
-
-  to {
-    -webkit-transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 0)
-      rotate3d(0, 1, 0, 0deg);
-    transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 0) rotate3d(0, 1, 0, 0deg);
-    -webkit-animation-timing-function: ease-in;
-    animation-timing-function: ease-in;
-  }
-} */
-
-
 

@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100;300;400;500;700;800;900&display=swap');
 
-.conteiner {
+.container {
   max-width: 1080px; /* 20px smaller, to fit the paddings on the sides */
   margin-right: auto;
   margin-left:  auto;

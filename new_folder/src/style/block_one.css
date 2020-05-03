@@ -22,6 +22,7 @@
   font-weight: 400;
   line-height: 21px;
   text-align: center;
+  text-decoration: none;
 }
 
 .header__navigation {
@@ -33,7 +34,8 @@
   padding-left: 30px;
 }
 
-.links:after {
+/*CSS - уровень 2 (сложные селекторы) - Задание 1*/
+.links::after {
   content: "";
   background-color: currentColor;
   display: block;
@@ -44,18 +46,29 @@
   transition-property: width;
 }
 
-.links:hover:after {
+.links:hover::after {
   width: 100%;
 }
+
+
+.links:hover {
+  color: #FF8C00;
+}
+
+.header__logo:hover {
+  cursor: pointer;
+  
+}
+
+.header__logo:active {
+  color: #FF8C00;
+}
+/* -------- */
 
 .links {
   text-decoration: none;
   color: #ffffff;
   transition: .2s;
-}
-
-.links:hover {
-  color: #FF8C00;
 }
 
 .navigation__links{
@@ -131,10 +144,6 @@
   width: 460px;
   padding-bottom: 50px;
 }
-/* 
-.iconsFooter__icons {
-  
-} */
 
 .icons {
   float: left;
@@ -143,10 +152,8 @@
 
 .icons-footer__text {
   color: #ffffff;
-  
   font-size: 15px;
   font-weight: 400;
-  
 }
 
 .decor-first{
@@ -154,7 +161,6 @@
   z-index: 2;
   top: 0px;
   left: 568px;
-  
 }
 
 .decor-first__bars {
@@ -164,9 +170,11 @@
   z-index: 2;
 }
 
+/*CSS - уровень 2 (сложные селекторы) - Задание 1*/
 .decor-first__list-barries:hover {
   transform: scale(1.2) rotate(4deg);
 }
+/* ----------------- */
 
 .decor-first__list{
   position: absolute;
@@ -179,7 +187,7 @@
   position: absolute;
   right: 90px;
   bottom: 3px;
-  transition: 1s;
+  transition: transform 1s;
 }
 
 .sidebar {
@@ -207,8 +215,8 @@
 .sidebar__cercle img {
   padding-bottom: 3px;
 }
-
+/*CSS - уровень 2 (сложные селекторы) - Задание 1*/
 .sidebar__cercle:hover{
-  background-image: url(C:/Users/Home/Documents/new/site-block2/src/images/head_block_images/Ellipse_3.png);
+  background-image: url(./../images/head_block_images/Ellipse_3.png);
 }
-
+/* ---------------- */

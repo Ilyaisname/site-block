@@ -19,14 +19,14 @@
   z-index: 2;
   top: 173px;
   left: 46px ;
-  right: 15px ;
-  bottom: 293px;
-  transition: 1s;
+  transition: transform 1s;
 }
 
+/*CSS - уровень 2 (сложные селекторы) - Задание 1*/
 .pattern__berry:hover {
   transform: scale(1.2) rotate(4deg);
 }
+/* ------------- */
 
 .decorwrap__arrow-left {
   margin: 317px 0 0 46px; 
@@ -104,7 +104,6 @@
   font-size: 24px;
   font-weight: 500;
   color: #323232;
-  font-weight: bold;
 }
 
 .slider__right-text {
@@ -130,13 +129,11 @@
 
 .numbers {
   color: #333333;
-  
   font-size: 14px;
   font-weight: bold;
 }
 
 .rub {
-  
   font-size: 55px;
   font-weight: 300;
   line-height: 60px;
@@ -162,14 +159,14 @@
 .rub__sign {
   font-size: 50px;
   font-style: initial;
-  font-weight: 100;
+  font-weight: 300;
 }
-
+/*CSS - уровень 2 (сложные селекторы) - Задание 1*/
 .button:hover {
   background-color: #FF8C00;
   box-shadow: 2px 3px black;
 }
-
+/* ----------- */
 
 
 
