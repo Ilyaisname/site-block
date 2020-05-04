@@ -5,20 +5,20 @@
 /* decor-block */
 .decorwrap__pattern {
   position: absolute;
-  width: 196px;
-  height: 578px;
+  width: 12.25rem;
+  height: 36.125rem;
   right: 0;
-  bottom: -340px;
+  bottom: -21.25rem;
   z-index: 1;
 }
 
 .pattern__berry {
-  width: 135px;
-  height: 112px;
+  width: 8.4375rem;
+  height: 7rem;
   position: absolute;
   z-index: 2;
-  top: 173px;
-  left: 46px ;
+  top: 10.8125rem;
+  left: 2.875rem ;
   transition: transform 1s;
 }
 
@@ -29,10 +29,10 @@
 /* ------------- */
 
 .decorwrap__arrow-left {
-  margin: 317px 0 0 46px; 
+  margin: 19.8125rem 0 0 2.875rem; 
   position: absolute;
-  width: 13px;
-  height: 28px;
+  width: 0.8125rem;
+  height: 1.75rem;
   z-index: 3;
   
 }
@@ -43,16 +43,16 @@
 }
 
 .decorwrap__arrow-right { 
-  margin: 317px 0 0 1011px;
+  margin: 19.8125rem 0 0 63.1875rem;
   position: absolute;
-  width: 13px;
-  height: 28px;
+  width: 0.8125rem;
+  height: 1.75rem;
   z-index: 3;
 }
 
 /* main */
 .slider {
-  width: 950px;
+  width: 60rem;
   display: flex;
   margin-left: 6%;
 }
@@ -66,20 +66,20 @@
 
 .slider__left-ellipse {
   position: absolute;
-  top: 187px;
-  left: 67px;
+  top: 11.6875rem;
+  left: 4.1875rem;
 }
 
 .slider__left-bars {
   position: absolute;
-  top: 112px;
-  left: 61px;
+  top: 7rem;
+  left: 3.8125rem;
 }
 
 .slider__left-lists {
   position: absolute;
-  top: 206px;
-  left: 4px;
+  top: 12.875rem;
+  left: 0.25rem;
 }
 
 /* right */
@@ -88,28 +88,28 @@
   display: flex;
   flex-direction: column;
   width: 50%;
-  padding-top: 130px;
-  padding-left: 66px;
+  padding-top: 8.125rem;
+  padding-left: 4.125rem;
 }
 
 .slider__right-header {
-  font-size: 36px;
+  font-size: 2.25rem;
   font-weight: 700;
   text-transform: uppercase;
   margin: 0;
 }
 
 .slider__right-structure {
-  margin: 41px 0 0 0 ;
-  font-size: 24px;
+  margin: 2.5625rem 0 0 0 ;
+  font-size: 1.5rem;
   font-weight: 500;
   color: #323232;
 }
 
 .slider__right-text {
-  margin: 33px 0 0 0;
+  margin: 2.0265rem 0 0 0;
   
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 400;
   color: #323232;
   text-align: left;
@@ -122,33 +122,33 @@
 .string {
   color: #333333;
   
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 400;
-  margin: 45px 25px 0 0;
+  margin: 2.8125rem 1.5625rem 0 0;
 }
 
 .numbers {
   color: #333333;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: bold;
 }
 
 .rub {
-  font-size: 55px;
+  font-size: 3.4375rem;
   font-weight: 300;
-  line-height: 60px;
+  line-height: 3.75rem;
   text-transform: uppercase;
   color: #0d0d0d;  
-  margin-top: 35px;
+  margin-top: 2.1875rem;
 }
 
 .wrap__right {
-  margin-left: 30px;
+  margin-left: 1.875rem;
 }
 
 .wrap__right-button {
-  margin-top: 35px;
-  padding-bottom: 88px;
+  margin-top: 2.1875rem;
+  padding-bottom: 5.5rem;
 }
 
 .write-side__button_color_green {
@@ -157,14 +157,14 @@
 }
 
 .rub__sign {
-  font-size: 50px;
+  font-size: 3.125rem;
   font-style: initial;
   font-weight: 300;
 }
 /*CSS - уровень 2 (сложные селекторы) - Задание 1*/
 .button:hover {
   background-color: #FF8C00;
-  box-shadow: 2px 3px black;
+  box-shadow: 0.125rem 0.1875rem black;
 }
 /* ----------- */
 

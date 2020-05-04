@@ -1,15 +1,15 @@
 .decor-five-block {
   position: relative;
-  height: 655px;
+  height: 40.9375rem;
 }
 
 .berry {
-  width: 105px;
-  height: 114px;
+  width: 6.5625rem;
+  height: 7.125rem;
   position: absolute;
   z-index: 2;
-  top: -70px;
-  left: 33px ;
+  top: -4.375rem;
+  left: 2.0625rem ;
   transition: transform 1s;
 }
 

@@ -7,20 +7,21 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 25px 0 25px 0;
+  /* padding: 1.5625rem 7.5rem 1.5625rem 7.4375rem; */
+  padding: 1.5625rem 3.9999rem 1.5625rem 4.4999rem;
   z-index: 5;
   position: fixed;
   background-color:#61c4d9;
-  width: 1080px;
+  /* width: 1080px; */
   opacity: 90%;
 }
 
 .header__logo {
   color: #ffffff;
   text-transform: uppercase;
-  font-size: 25px;
+  font-size: 1.5625rem;
   font-weight: 400;
-  line-height: 21px;
+  line-height: 1.3125rem;
   text-align: center;
   text-decoration: none;
 }
@@ -31,7 +32,7 @@
 
 .navigation__menu{
   list-style-type: none;
-  padding-left: 30px;
+  padding-left: 1.875rem;
 }
 
 /*CSS - уровень 2 (сложные селекторы) - Задание 1*/
@@ -39,7 +40,7 @@
   content: "";
   background-color: currentColor;
   display: block;
-  height: 2px;
+  height: 0.125rem;
   width: 0;
   transition-timing-function: linear; 
   transition-duration: .2s; 
@@ -73,11 +74,11 @@
 
 .navigation__links{
   float: left;
-  margin-right: 26px;
+  margin-right: 1.625rem;
   color: #ffffff;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
-  line-height: 30px;
+  line-height: 1.875rem;
 }
 
 .header__phone {
@@ -86,87 +87,90 @@
 
 .header__phone-num {
   
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 400;
-  line-height: 30px;
+  line-height: 1.875rem;
   text-transform: uppercase;
   z-index: 3;
 }
 
 .main-section {
-  width: 404px;
+  width: 25.25rem;
   display: flex;
   flex-direction: column;
-  padding-top: 163px;
-  padding-left: 85px;
+  padding-top: 10.1875rem;
+  padding-left: 5.3125rem;
   
 }
 
 .main-section__header {
   color: #ffffff;
   
-  font-size: 48px;
+  font-size: 3rem;
   font-weight: 700;
   text-transform: uppercase;
-  height: 160px;
-  padding-bottom: 22px;
+  height: 10rem;
+  padding-bottom: 1.375rem;
 }
 
 .main-section__slogan {
   color: #ffffff;
-  
-  font-size: 17px;
+  font-size: 1.0625rem;
   font-weight: 400;
 }
 .main-section__button {
-  padding-top: 32px;
+  padding-top: 2rem;
 }
 
 .button{
-  width: 156px;
-  height: 58px;
-  border: 1px solid;
-  border-radius: 42px;
+  width: 9.75rem;
+  height: 3.625rem;
+  border: 0.0625rem solid;
+  border-radius: 2.625rem;
   color: #0f5a47;
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 1rem;
   position: relative;
-  z-index: 3;
-  transition: 1s;
+  z-index: 4;
+  transition: .5s;
 }
 
 .icons-footer {
   display: flex;
   justify-content: space-around;
-  margin-left: 81px;
-  margin-top: 72px;
-  width: 460px;
-  padding-bottom: 50px;
+  margin-left: 5.0625rem;
+  margin-top: 4.5rem;
+  width: 28.75rem;
+  padding-bottom: 3.125rem;
 }
 
 .icons {
   float: left;
-  padding: 5px;
+  padding: 0.3125rem;
 }
 
 .icons-footer__text {
   color: #ffffff;
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-weight: 400;
 }
 
-.decor-first{
+/* .decor-first{
+  
+} */
+
+.decor-first__patern {
   position: absolute;
   z-index: 2;
   top: 0px;
-  left: 568px;
+  left: 35.5rem;
 }
 
 .decor-first__bars {
   position: absolute;
-  top: 55px; 
-  right: 28px;
+  top: 3.4375rem; 
+  right: 1.75rem;
   z-index: 2;
 }
 
@@ -178,16 +182,17 @@
 
 .decor-first__list{
   position: absolute;
-  bottom: -44px;
-  right: 14px;
+  bottom: -2.75rem;
+  right: 0.875rem;
   z-index: 3;
 }
 
 .decor-first__list-barries {
   position: absolute;
-  right: 90px;
-  bottom: 3px;
+  right: 5.625rem;
+  bottom: 0.1875rem;
   transition: transform 1s;
+  z-index: 3;
 }
 
 .sidebar {
@@ -195,15 +200,15 @@
   display: flex;
   flex-direction: column;
   position: absolute;
-  top: 216px;
-  right: 51px;
+  top: 13.5rem;
+  right: 3.1875rem;
   z-index: 4;
   text-align: center;
 }
 
 .sidebar__cercle {
-  width: 16px;
-  height: 16px;
+  width: 1rem;
+  height: 1rem;
   background: none;
   z-index: 2;
 }
@@ -213,7 +218,7 @@
 }
 
 .sidebar__cercle img {
-  padding-bottom: 3px;
+  padding-bottom: 0.1875rem;
 }
 /*CSS - уровень 2 (сложные селекторы) - Задание 1*/
 .sidebar__cercle:hover{
