@@ -2,9 +2,10 @@
   position: relative;
   height: 40.9375rem;
   width: 100%;
-  max-width: 100%;
-  background-color:  #f8faf9;
-  text-align: center;
+  background: url(./../images/command_block_images/pic.png);
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
 .berry {
@@ -20,3 +21,4 @@
 .berry:hover {
   transform: scale(1.2) rotate(4deg);
 }
+

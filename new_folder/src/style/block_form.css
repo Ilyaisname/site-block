@@ -11,12 +11,12 @@
   padding: 108px 0 0 18.75rem;
 }
 
-.form__name,
+/* .form__name,
 .form__phone,
 .form__street,
 .form__left-group {
   width: 100%;
-}
+} */
 
 .form__conteiner {
   display: flex;
@@ -57,7 +57,7 @@
 }
 
 .input-text__size_m {
-  width: 13.125rem;
+  width: 99%;
   height: 3.6875rem;
 }
 
@@ -67,14 +67,20 @@
 }
 
 .input-text__phone_border-color {
-  width: 14rem;
+  width: 97%;
   height: 3.6875rem;
   border: 0.1875rem  solid #dde3bd;
+}
+
+.form__name,
+.form__phone {
+  width: 48%;
 }
 
 .form__name-phone-wrap {
   display: flex;
   justify-content: space-between;
+  width: 100%;
 }
 
 .form__left-group {

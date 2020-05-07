@@ -29,7 +29,7 @@
 /* ------------- */
 
 .decorwrap__arrow-left {
-  margin: 19.8125rem 0 0 2.875rem; 
+  margin: 19.8125rem 0 0 0; 
   position: absolute;
   width: 0.8125rem;
   height: 1.75rem;
@@ -43,7 +43,7 @@
 }
 
 .decorwrap__arrow-right { 
-  margin: 19.8125rem 0 0 63.1875rem;
+  margin: 19.8125rem 0 0 58.1875rem;
   position: absolute;
   width: 0.8125rem;
   height: 1.75rem;
@@ -53,7 +53,9 @@
 /* main */
 .slider {
   display: flex;
-  margin-left: 6%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
 }
 
 /* left */
@@ -88,7 +90,7 @@
   flex-direction: column;
   width: 50%;
   padding-top: 8.125rem;
-  padding-left: 4.125rem;
+  padding-left: 5.125rem;
 }
 
 .slider__right-header {
@@ -170,6 +172,7 @@
   .slider {
     flex-direction: column;
     align-items: center;
+    width: 100%;
   }
 
   .slider__right {
@@ -213,12 +216,12 @@
 
   .decorwrap__arrow-right {
     margin-top: 14.375rem;
-    margin-left: 85%;
+    margin-left: 115%;
   }
 
   .decorwrap__arrow-left {
     margin-top: 14.375rem;
-    margin-left: 20%;
+    margin-left: -15%;
   }
 }
 
