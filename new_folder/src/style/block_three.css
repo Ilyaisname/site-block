@@ -203,6 +203,23 @@
     left: -50px;
   }
   
+  .decorwrap__pattern {
+    width: 9.75rem;
+    height: 28.875rem;
+    right: 0;
+    bottom: -14.25rem;
+    overflow: hidden;
+  }
+
+  .decorwrap__arrow-right {
+    margin-top: 14.375rem;
+    margin-left: 85%;
+  }
+
+  .decorwrap__arrow-left {
+    margin-top: 14.375rem;
+    margin-left: 20%;
+  }
 }
 
 

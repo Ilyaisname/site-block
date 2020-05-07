@@ -36,6 +36,7 @@ justify-content: center;
   flex-direction: column;
   text-align: center;
   padding-bottom: 10rem;
+  width: 100%;
 }
 
 .photo__name {
@@ -75,4 +76,19 @@ background-color: #0f5a47;
 
 /* down-block */
 
+@media screen and (max-width: 768px) {
+  .command__photo-box {
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 3.25rem auto 2.75rem auto;
+    z-index: 3;
+  }
 
+  .margin-top {
+    margin-top: 0;
+  }
+
+  .photo__lover-menu {
+    padding-bottom: 36px;
+  }
+}
