@@ -95,6 +95,7 @@
   top: 3%;
   right: 2.3%;
   transition: transform .6s;
+  z-index: 1;
 }
 
 .menu-icon:hover {
@@ -226,8 +227,11 @@
   padding-bottom: 3.125rem;
 }
 
+.icons-footer__icons {
+  display: flex;
+}
+
 .icons {
-  float: left;
   padding: 0.3125rem;
 }
 
@@ -369,6 +373,6 @@
   }
 
   .icons-footer__icons {
-    width: 25%;
+    width: 28%;
   }
 }
