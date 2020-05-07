@@ -2,6 +2,7 @@
 .main-block {
   background-color: #61c4d9;
   position: relative;
+  overflow: hidden;
 }
 
 .header {
@@ -347,12 +348,9 @@
   }
 
   .decor-first__bars {
-    left: 22%;
-    top: 53px;
-  }
-
-  .decor-first__bars img {
-    width: 402px;
+    left: 17%;
+    top: 30px;
+    right: 17%;
   }
 
   .decor-first__list {
@@ -380,7 +378,12 @@
 @media screen and (max-width: 480px) {
   .decor-first__bars {
     top: 23px;
-    left: 7%;
+    left: 5%;
+    right: 5%;
+  }
+
+  .main-section__content {
+    width: 98%;
   }
 
   .decor-first__list {
