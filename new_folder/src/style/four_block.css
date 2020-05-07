@@ -92,3 +92,19 @@ background-color: #0f5a47;
     padding-bottom: 36px;
   }
 }
+
+@media screen and (max-width: 480px) {
+  .photo {
+    width: 14rem;
+    z-index: 1;
+  }
+
+  .command__photo-box {
+    width: 100%;
+    justify-content: space-around;
+  }
+
+ 
+  
+
+}

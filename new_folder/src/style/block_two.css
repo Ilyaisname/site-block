@@ -75,12 +75,12 @@ padding-top: 5.2em;
 .pictures__elm2, 
 .pictures__elm3 {
   box-sizing: border-box;
-  width: 7.8125rem;
-  height: 7.8125rem;
+  width: 125px;
+  height: 125px;
   display: inline-block;
   background-color: #f2f5f4;
   border-radius: 50%;
-  padding: 1.5625rem;
+  padding: 25px;
 }
 
 .pictures__elm1 {
@@ -306,4 +306,12 @@ padding-top: 5.2em;
     width: 36%;
   }
 
+}
+
+@media screen and (max-width: 480px) {
+  .whychocco__picture1, 
+  .whychocco__picture2, 
+  .whychocco__picture3 {
+    width: 60%;
+  }
 }

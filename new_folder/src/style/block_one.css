@@ -334,9 +334,10 @@
   .main-section__content{
     padding: 0;
     padding-top: 542px;
-    flex-basis: 60%;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
-    padding-left: 20%;
     order: 1;
   }
 
@@ -352,18 +353,17 @@
 
   .decor-first__bars img {
     width: 402px;
-    height: 420px;
   }
 
   .decor-first__list {
-    top: 238px;
-    right: 172px;
+    top: 254px;
+    right: 110px;
     bottom: 0;
   }
   
   .decor-first__list-barries {
     top: 238px;
-    right: 171px;
+    right: 146px;
   }
 
   .icons-footer {
@@ -374,5 +374,26 @@
 
   .icons-footer__icons {
     width: 28%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .decor-first__bars {
+    top: 23px;
+    left: 7%;
+  }
+
+  .decor-first__list {
+    right: 3.5%;
+    top: 214px;
+  }
+
+  .decor-first__list-barries {
+    right: 6.5%;
+    top: 196px;
+  }
+
+  .main-section__content {
+    padding-top: 512px;
   }
 }

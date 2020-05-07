@@ -52,7 +52,7 @@
 }
 /* --------- */
 .input-text__size_s {
-  width: 6rem;
+  width: 95%;
   height: 3.6875rem;
 }
 
@@ -77,6 +77,9 @@
   width: 48%;
 }
 
+.item {
+  width: 22%;
+}
 .form__name-phone-wrap {
   display: flex;
   justify-content: space-between;
@@ -294,4 +297,21 @@
     display: none;
   }
 
+}
+
+@media screen and (max-width: 480px) {
+  .form__left,
+  .form__right {
+    width: 95%;
+  }
+
+  .comments {
+    width: 99.5%;
+  }
+
+  .form__header {
+    font-size: 2.5rem;
+  }
+
+  
 }

@@ -225,4 +225,31 @@
   }
 }
 
+@media screen and (max-width: 480px) {
+  .slider__left-ellipse {
+    left: -74px;
+  }
 
+  .slider__left-bars {
+    top: 56px;
+    left: -78px;
+  }
+
+  .slider__left-lists {
+    left: -114px;
+  }
+
+  .decorwrap__arrow-left {
+    margin-top: 17.375rem;
+    left: -45%;
+  }
+
+  .decorwrap__arrow-right {
+    margin-top: 17.375rem;
+    right: -45%;
+  }
+
+  .slider__right {
+    width: 90%;
+  }
+}
