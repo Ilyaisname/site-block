@@ -216,12 +216,12 @@
 
   .decorwrap__arrow-right {
     margin-top: 14.375rem;
-    margin-left: 115%;
+    right: -12%;
   }
 
   .decorwrap__arrow-left {
     margin-top: 14.375rem;
-    margin-left: -15%;
+    left: -15%;
   }
 }
 
