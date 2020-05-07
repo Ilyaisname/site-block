@@ -1,6 +1,10 @@
 .decor-five-block {
   position: relative;
   height: 40.9375rem;
+  width: 100%;
+  max-width: 100%;
+  background-color:  #f8faf9;
+  text-align: center;
 }
 
 .berry {
